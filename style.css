@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif
+    
+}
+
+
+
+
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1f1f1f;
+
+
+}
+
+h2 {
+    text-align: center;
+    s
+
+}
+
+.conteiner {
+    background: #3d3d3dfd;
+    width: 400px;
+    height: 450px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(2, 2, 2, 0.25);
+
+}
+
+div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label#userName {
+    margin-right: 260px;
+    display: grid;
+    flex-direction: column;
+}
+
+label#userPassword {
+
+    display: grid;
+    flex-direction: column;
+    margin-right: 270px;
+}
+
+.esqueceu-senha a {
+    color: white;
+    font-size: 12px;
+    
+}
+
+.esqueceu-senha {
+    margin-left: 200px;
+    margin-top: .3em;
+}
+
+input#user , #password {
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 20px;
+    padding: 7px;
+    padding: 12px 1rem;
+    margin-top: .5em;
+    width: 100%;
+}
+
+input#user:hover {
+    transition: 0.3s ease;
+    background-color: #b8b8b8 ;
+}
+
+input#password:hover {
+    transition: 0.3s ease;
+    background-color: #b8b8b8 ;
+}
+
+
+
+.checkbox {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20pt;
+}
+
+
+input#check {
+    accent-color: #000000fd;
+    margin-right: .3em;
+    
+
+}
+
+button {
+    border: none;
+    outline: none;
+    margin-top: 6.5em;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    background: #2ecc71;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-size: 13px;
+}
+
+button:hover {
+    color: #2ecc71;
+    background: white;
+
+}
+
+
